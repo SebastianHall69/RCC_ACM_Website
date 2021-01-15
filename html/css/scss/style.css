@@ -1,0 +1,146 @@
+:root {
+  --header-height: 70vh;
+  --acm-primary: #399bbb;
+  --acm-secondary: #5ab1cd;
+  --acm-red: #bb5939; }
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+  background: radial-gradient(#5ab1cd 3px, transparent 4px), radial-gradient(#5ab1cd 3px, transparent 4px), linear-gradient(#399bbb 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #5ab1cd 75px, #5ab1cd 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #5ab1cd 76px, #5ab1cd 77px, transparent 78px, transparent 109px), #399bbb;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; }
+
+.lead {
+  font-size: 1.7rem; }
+
+.emphasis {
+  color: #00008b;
+  font-style: italic;
+  font-weight: 900; }
+
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 90% !important; } }
+@media (min-width: 769px) {
+  .container-fluid {
+    width: 70% !important; } }
+a:link, a:visited {
+  color: #7653bd; }
+
+a:hover {
+  color: darkviolet; }
+
+.navbar {
+  opacity: 0.90;
+  font-size: 0.90rem; }
+
+.navbar-brand img {
+  height: 50px; }
+
+.dropdown-menu, .dropdown-menu a {
+  background-color: var(--dark);
+  color: var(--white); }
+
+.profile-picture {
+  height: 25px; }
+
+#home, #home-overlay {
+  height: var(--header-height); }
+
+.carousel-item {
+  height: 100%;
+  background-size: cover !important; }
+
+.carousel-image-1 {
+  background: url("../images/icpc_team.jpg"); }
+
+.carousel-image-2 {
+  background: url("../images/black_motherboard.jpg"); }
+
+.carousel-image-3 {
+  background: url("https://source.unsplash.com/random/700x700/?technology"); }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35); }
+
+.mid-grad-overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); }
+
+.full-overlay {
+  background: rgba(0, 0, 0, 0.35); }
+
+.section-header {
+  position: relative;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  text-align: center;
+  color: var(--light);
+  height: 35vh; }
+
+.section-body {
+  margin-top: -100px;
+  padding-top: 150px;
+  margin-bottom: -100px;
+  padding-bottom: 150px; }
+
+#acm-header {
+  background: url("../images/ucrpc.png");
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 80%); }
+
+#comp-programming-header {
+  background: url("../images/bg_competitive_programming.jpg");
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); }
+
+#unreal-header {
+  background: url("../images/bg_unreal.png");
+  clip-path: polygon(0 0, 100% 10%, 100% 80%, 0 100%); }
+
+#unity-header {
+  background: url("../images/bg_unity.jpg");
+  clip-path: polygon(0 0%, 100% 10%, 100% 95%, 0% 100%); }
+
+footer {
+  font-size: 1rem; }
+
+.mb-large {
+  margin-bottom: 150px; }
+
+.rounded {
+  border-radius: 25px !important; }
+
+.section-body .list-group-item {
+  background-color: transparent;
+  border: none; }
+
+.inner-list .list-group-item:before {
+  content: "- ";
+  text-indent: -25px; }
+.inner-list .list-group-item {
+  text-indent: -25px; }
+
+.login-selector {
+  width: 50%;
+  padding: 3em;
+  cursor: pointer; }
+
+.badge {
+  font-size: 1rem;
+  white-space: normal; }
+
+#member-header {
+  margin-top: 150px;
+  margin-bottom: 75px; }
+
+#members .card:hover {
+  background-color: #444444 !important;
+  cursor: pointer;
+  transform: scale(1.1); }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+.section-header {
+  position: relative;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  text-align: center;
+  color: var(--light);
+  height: 35vh; }
+
+.section-body {
+  margin-top: -100px;
+  padding-top: 150px;
+  margin-bottom: -100px;
+  padding-bottom: 150px; }
+
+#acm-header {
+  background: url("../images/ucrpc.png");
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 80%); }
+
+#comp-programming-header {
+  background: url("../images/bg_competitive_programming.jpg");
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); }
+
+#unreal-header {
+  background: url("../images/bg_unreal.png");
+  clip-path: polygon(0 0, 100% 10%, 100% 80%, 0 100%); }
+
+#unity-header {
+  background: url("../images/bg_unity.jpg");
+  clip-path: polygon(0 0%, 100% 10%, 100% 95%, 0% 100%); }
+
+#home {
+  height: var(--header-height); }
+
+.carousel-item {
+  height: 100%;
+  background-size: cover !important; }
+
+.carousel-image-1 {
+  background: url("../images/icpc_team.jpg"); }
+
+.carousel-image-2 {
+  background: url("../images/black_motherboard.jpg"); }
+
+.carousel-image-3 {
+  background: url("https://source.unsplash.com/random/700x700/?technology"); }

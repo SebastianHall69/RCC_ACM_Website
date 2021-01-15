@@ -1,0 +1,10 @@
+#competitive-programming-header {
+  background-color: black;
+  position: relative; }
+
+div#numbers h1 {
+  color: var(--acm-hacker);
+  margin-bottom: 0px;
+  font-family: 'Karma', sans-serif; }
+div#numbers .col {
+  padding: 0; }

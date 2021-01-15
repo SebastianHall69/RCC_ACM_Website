@@ -1,0 +1,103 @@
+:root {
+  --header-height: 70vh;
+  --acm-primary: #399bbb;
+  --acm-secondary: #5ab1cd;
+  --acm-red: #bb5939;
+  --acm-hacker: #00FF00; }
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+  background: radial-gradient(#5ab1cd 3px, transparent 4px), radial-gradient(#5ab1cd 3px, transparent 4px), linear-gradient(#399bbb 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #5ab1cd 75px, #5ab1cd 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #5ab1cd 76px, #5ab1cd 77px, transparent 78px, transparent 109px), #399bbb;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; }
+
+.lead {
+  font-size: 1.7rem; }
+
+.emphasis {
+  color: #00008b;
+  font-style: italic;
+  font-weight: 900; }
+
+.bg-black {
+  background-color: black; }
+
+a:link, a:visited {
+  color: #7653bd; }
+
+a:hover {
+  color: darkviolet; }
+
+.navbar {
+  opacity: 0.90;
+  font-size: 0.90rem; }
+
+.navbar-brand img {
+  height: 50px; }
+
+.dropdown-menu, .dropdown-menu a {
+  background-color: var(--dark);
+  color: var(--white); }
+
+.profile-picture {
+  height: 25px; }
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%; }
+
+.bg-trans-grad-dark {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); }
+
+.bg-trans-dark {
+  background: rgba(0, 0, 0, 0.6); }
+
+.bg-trans-medium {
+  background: rgba(0, 0, 0, 0.35); }
+
+.bg-trans-light {
+  background: rgba(0, 0, 0, 0.2); }
+
+.black-outline {
+  text-shadow: 5px 5px #000, -5px -5px #000, -5px 5px #000, 5px -5px #000; }
+
+footer {
+  font-size: 1rem; }
+
+.mb-large {
+  margin-bottom: 150px; }
+
+.rounded {
+  border-radius: 25px !important; }
+
+.header-margin {
+  margin-top: 150px;
+  margin-bottom: 75px; }
+
+.mb-nav {
+  margin-top: 68px; }
+
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 90% !important; } }
+@media (min-width: 769px) {
+  .container-fluid {
+    width: 70% !important; } }
+.section-body .list-group-item {
+  background-color: transparent;
+  border: none; }
+
+.inner-list .list-group-item:before {
+  content: "- ";
+  text-indent: -25px; }
+.inner-list .list-group-item {
+  text-indent: -25px; }
+
+.login-selector {
+  width: 50%;
+  padding: 3em;
+  cursor: pointer; }

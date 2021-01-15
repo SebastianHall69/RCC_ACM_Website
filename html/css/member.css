@@ -1,0 +1,8 @@
+.badge {
+  font-size: 1rem;
+  white-space: normal; }
+
+#members .card:hover {
+  background-color: #444444 !important;
+  cursor: pointer;
+  transform: scale(1.1); }
